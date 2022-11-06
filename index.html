@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="main-box">
+        <form action="" method="get" >
+            <div class="firstname-box">
+                <label class="label-one" for="firstName">სახელი</label>
+                <input class="input-one" type="text" name="firstName" id="firstName" placeholder="ჩაწერეთ თქვენი სახელი">
+            </div>
+            <div class="lastname-box">
+                <label class="label-one" for="lastName">გვარი</label>
+                <input class="input-one" type="text" name="lastName" id="lastName" placeholder="ჩაწერეთ თქვენი გვარი">
+            </div>
+            <div class="password-box">
+                <label class="label-third" for="pass">პაროლი</label>
+                <input class="input-third" type="password" name="pass" id="pass" placeholder="ჩაწერეთ პაროლი" >
+            </div>
+            <div class="password-box">
+                <label class="label-third" for="passReplay">გაიმეორეთ პაროლი</label>
+                <input class="input-third" type="password" name="passReplay" id="passReplay" placeholder="ჩაწერეთ პაროლი" >
+            </div>
+            <div class="maleorwoman-main-box" >
+                <div class="maleorwomen" >
+                    <input class="input-second" type="radio" name="sex" id="sex">
+                    <label class="label-second" for="women">ქალი</label>
+                </div>
+                <div class="maleorwomen" >
+                    <input class="input-second" type="radio" name="sex" id="sex">
+                    <label class="label-second" for="man">კაცი</label>
+                </div>
+            </div>
+            <div class="lastname-box">
+                <label class="label-one" for="birthDate">დაბადების თარიღი</label>
+                <input class="input-one" type="date" name="birthDate" id="birthDate" placeholder="ჩაწერეთ თქვენი გვარი">
+            </div>
+            <div class="lastname-box">
+                <label class="label-one" for="birthDate">დაბადების ადგილი</label>
+                <select>
+                    <option>საქართველო</option>
+                    <option>საბერძნეთი</option>
+                    <option>თურქეთი</option>
+                    <option>აზერბაიჯანი</option>
+                    <option>ყაზახეთი</option>
+                    <option>პოლონეთი</option>
+                    <option>იაპონია</option>
+                    <option>სამხრეთ კორეა</option>
+                    <option>კანადა</option>
+                    <option>გერმანია</option>
+                </select>
+            </div>
+            <button class="registration-button">რეგისტრაცია</button>
+        </form>
+    </div>
+</body>
+</html>
